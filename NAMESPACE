@@ -1,0 +1,11 @@
+import(stats, mvtnorm, triangle, graphics)
+exportPattern("^[[:alpha:]]+")
+
+S3method(uncertaintyBudget, default)
+S3method(print, uncertaintyBudget)
+S3method(uncertainty, default)
+S3method(print, uncertainty)
+S3method(plot, uncertainty)
+S3method(summary, uncertainty)
+S3method(print, summary.uncertainty)
+S3method(plot, summary.uncertainty)
